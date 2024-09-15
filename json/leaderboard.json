@@ -1,0 +1,9 @@
+[
+    {"discord": "@PlayerOne#1234", "points": 1000 }
+    ,{ "discord": "@PlayerTwo#5678", "points": 900 }
+    ,{ "discord": "@PlayerTwo#5678", "points": 50 }
+    ,{"discord": "@PlayerOne#1234", "points": 100 }
+    ,{ "discord": "@PlayerThree#9101", "points": 210 }
+    ,{ "discord": "@PlayerTwo#5678", "points": 50 }
+    ,{ "discord": "@PlayerThree#9101", "points": -10 }
+]

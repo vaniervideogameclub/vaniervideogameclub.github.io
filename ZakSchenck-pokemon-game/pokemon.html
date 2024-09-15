@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON | Gotta Catch Em' All</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="js/events.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🎮Video Game Club</h1>
+        <h3>Our club room at D-112 check out our opening schedule</h3>
+        <p>Join the Club!</p>
+
+        <div class="header-buttons">
+            <a href="https://www.instagram.com/vanier_videogame_club" target="_blank" class="button">Instagram</a>
+            <a href="https://discord.gg/cJCDE8Xkyw" target="_blank" class="button">Discord</a>
+            <a href="/game.html" class="button">dumb game 1</a>
+            <a href="/pokeball.html" class="button">dumb game 2</a>
+            <a href="" class="button">cool game</a>
+            <a href="/index.html#events" class="button">Events</a>
+            <a href="/roadmap.html" class="button">Roadmap</a>
+            <link rel="icon" href="icon.ico" type="image/x-icon">
+            <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+        </div>
+    </header>
+
+    <div class="gametitle">
+      <h2>Cool game from <a href="https://github.com/ZakSchenck/pokemon-game?tab=readme-ov-file">ZakSchenck</a> </h2>
+      <h3>If you are on a phone please rotate your phone for better experience</h3>
+    </div>
+
+    <div class="canvas">
+      <div class="player-two-container">
+        <div id="pokeballsP2">
+          <h2>MewTwo <span class="health-count-p2">70/70 HP</span></h2>
+          <div class="hp-container-mew">
+            <h2>HP</h2>
+            <div class="bar p2-health"></div>
+          </div>
+        </div>
+        <img id="ai-image" src="img/mewtwosprite.png" />
+      </div>
+      <div id="pokeballsP1">
+        <h2>Charmander <span class="health-count-p1">70/70 HP</span></h2>
+        <div class="hp-container">
+          <h2>HP</h2>
+          <div class="bar p1-health"></div>
+        </div>
+      </div>
+      <img src="img/charmander.png" id="charmander" />
+      <div class="player-one-container">
+        <h1 class="game-state"></h1>
+        <div class="attack-container">
+          <button class="attack1 btn">Body Slam</button>
+          <button class="attack2 btn">Fire Breath</button>
+          <button class="attack3 btn">Annihilate</button>
+          <button class="attack4 btn">Flamethrower</button>
+        </div>
+        <button class="restart-game">Restart Game</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+
+
+  </body>
+</html>

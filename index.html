@@ -4,56 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Game Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/events.js"></script>
 </head>
 <body>
     <header>
-        <h1>🎮 Video Game Club</h1>
-        <p>Join the Club and Power Up!</p>
+        <img id="coinIcon" src="icon.png" alt="Coin" class="coin-icon">
+        <audio id="coinSound" src="coin.mp3"></audio>
+        <h1>🎮Video Game Club</h1>
+        <h3>Our club room at D-112 check out our opening schedule</h3>
+        <p>Join the Club!</p>
+
         <div class="header-buttons">
             <a href="https://www.instagram.com/vanier_videogame_club" target="_blank" class="button">Instagram</a>
             <a href="https://discord.gg/cJCDE8Xkyw" target="_blank" class="button">Discord</a>
-            <a href="game.html" target="_blank" class="button">dumb game</a>
+            <a href="game.html" class="button">dumb game 1</a>
+            <a href="pokeball.html" class="button">dumb game 2</a>
+            <a href="/ZakSchenck-pokemon-game/pokemon.html" class="button">cool game</a>
             <a href="#events" class="button">Events</a>
+            <a href="/roadmap.html" class="button">Roadmap</a>
+            <link rel="icon" href="icon.ico" type="image/x-icon">
+            <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
         </div>
     </header>
 
     <div class="container">
+
+        <div id="events-container"></div>
+
         <h2>Leaderboard</h2>
+
         <table class="leaderboard">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Name</th>
                     <th>Discord</th>
                     <th>Points</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>PlayerOne</td>
-                    <td>@PlayerOne#1234</td>
-                    <td>1000</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>PlayerTwo</td>
-                    <td>@PlayerTwo#5678</td>
-                    <td>900</td>
-                </tr>
-                <!-- Add more players as needed -->
+            <tbody id="leaderboard-body">
             </tbody>
         </table>
 
-        <h2>Recent Posts</h2>
+        <script src="js/leaderboard.js"></script>
+
         <div class="instagram-feed">
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div class="elfsight-app-aab6038e-ed93-4ec8-a82b-99cb8636bd89" data-elfsight-app-lazy></div>
         </div>
 
-        <h2 id="events">Upcoming Events</h2>
-        <p>Check back soon for upcoming events!</p>
     </div>
 
     <footer>
@@ -63,6 +62,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

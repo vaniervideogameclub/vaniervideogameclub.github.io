@@ -1,0 +1,70 @@
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+.event {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 2px solid #00ff00;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 1s forwards;
+}
+
+.event:nth-child(even) {
+    flex-direction: row-reverse;
+    border-left: none;
+    border-right: 2px solid #00ff00;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: #ff0;
+    background: #690558;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.event:nth-child(even) .date {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.event-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(239, 49, 226, 0.3);
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-content:hover {
+    transform: scale(1);
+}
+
+.event h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
