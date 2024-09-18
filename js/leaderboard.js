@@ -21,19 +21,28 @@ async function fetchAndMergeData() {
     for (const file of jsonFiles) {
         const players = await loadJSON(file);
         players.forEach(player => {
-            // Check if player already exists and update points if it does
-            // removed p.name === player.name ||
-            const existingPlayer = allPlayers.find(p => p.discord === player.discord);
-            if (existingPlayer) {
-                existingPlayer.points += player.points;
-            } else {
+            // Check if player.discord is "null"
+            const isNullDiscord = player.discord === "null";
+            
+            if (isNullDiscord) {
+                // Push player with "null" discord directly to allPlayers
                 allPlayers.push({ ...player });
+            } else {
+                // Handle non-null discord players
+                const existingPlayer = allPlayers.find(p => p.discord === player.discord);
+                if (existingPlayer) {
+                    existingPlayer.points += player.points;
+                } else {
+                    allPlayers.push({ ...player });
+                }
             }
         });
     }
 
     populateLeaderboard(allPlayers);
 }
+
+
 
 // Function to fill or update the leaderboard
 function populateLeaderboard(players) {
@@ -45,6 +54,7 @@ function populateLeaderboard(players) {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${index + 1}</td>
+            <td>${player.name}</td>
             <td>${player.discord}</td>
             <td>${player.points}</td>
         `;

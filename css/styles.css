@@ -29,6 +29,17 @@ header p {
     flex-wrap: wrap;
 }
 
+#loadParticlesButton, #con {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    color: #007bff; /* Text color */
+    font-size: 30px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-decoration: none; /* Underline text */
+}
+
 .button {
     background-color: #00ff00;
     color: #0d0d0d;
@@ -107,7 +118,7 @@ header p {
     margin: 0 auto 40px;
     border-collapse: collapse;
     color: #fff;
-    font-size: 1rem;
+    font-size: 25px;
 }
 
 .leaderboard th, .leaderboard td {
@@ -117,6 +128,8 @@ header p {
 
 .event {
     color: rgb(240, 62, 225);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid #3419e3;
     border-radius: 8px;
     padding: 15px;
@@ -152,15 +165,15 @@ header p {
 
 /* Specific styles for different parts of the event */
 .event h3 {
-    color: #9e4ee9; /* Title color */
+    color: #a761e8; /* Title color */
 }
 
 .event p {
-    color: #f0f40b; /* Default text color */
+    color: #f4170b; /* Default text color */
 }
 
 .event p strong {
-    color: #00ff00; /* Label color (e.g., 'Status:', 'Date & Time:', etc.) */
+    color: rgb(44, 173, 25); /* Label color (e.g., 'Status:', 'Date & Time:', etc.) */
 }
 
 .event p.date-time {
@@ -168,11 +181,11 @@ header p {
 }
 
 .event p.location {
-    color: #ffcc00; /* Location color */
+    color: #e6be1f; /* Location color */
 }
 
 .event p.description {
-    color: #ff69b4; /* Description color */
+    color: #e229cc; /* Description color */
 }
 
 
@@ -229,7 +242,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 20px;
     }
 
     header p {

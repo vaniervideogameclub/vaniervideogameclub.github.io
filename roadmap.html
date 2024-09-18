@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/roadmap.css">
     <link rel="icon" href="icon.ico" type="image/x-icon">
+    <script defer src="js/events.js"></script>
+    <script src="js/loadParticles.js"></script>
 </head>
 <body>
     <header>
-        <h1>🎮 Video Game Club</h1>
+        <img id="coinIcon" src="icon.png" alt="Coin" class="coin-icon">
+        <audio id="coinSound" src="coin.mp3"></audio>
+        <h1><a id="con" href="tools.html">🎮</a> Video Game Club <button id="loadParticlesButton">🕹️</button></h1>
         <h3>Our club room at D-112 check out our opening schedule</h3>
         <p>Join the Club!</p>
         <div class="header-buttons">
@@ -23,6 +27,8 @@
             <a href="index.html" class="button">Events</a>
             <a href="#" class="button">Roadmap</a>
         </div>
+        <div id="particles-js"></div>
+
     </header>
 
     <div class="timeline"></div>

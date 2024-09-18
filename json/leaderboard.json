@@ -1,9 +1,87 @@
 [
-    {"discord": "@PlayerOne#1234", "points": 1000 }
-    ,{ "discord": "@PlayerTwo#5678", "points": 900 }
-    ,{ "discord": "@PlayerTwo#5678", "points": 50 }
-    ,{"discord": "@PlayerOne#1234", "points": 100 }
-    ,{ "discord": "@PlayerThree#9101", "points": 210 }
-    ,{ "discord": "@PlayerTwo#5678", "points": 50 }
-    ,{ "discord": "@PlayerThree#9101", "points": -10 }
-]
+    {
+      "name": "Lucas Coveyduck",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Marlon Larente",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Joshua George Pangilinan",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "marcus ",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Olivia",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "angelo apas",
+      "discord": "kireme",
+      "points": 0
+    },
+    {
+      "name": "Kenneth Chu",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Masha",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Fabian Ruiz",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Sarah Radi",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Percy!",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Karis",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Delcia Badinga",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Gabrielle Dédé 2482405",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "ishmita hossain ",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Nickan Mokhtari",
+      "discord": "null",
+      "points": 0
+    },
+    {
+      "name": "Sachi",
+      "discord": "null",
+      "points": 0
+    }
+  ]

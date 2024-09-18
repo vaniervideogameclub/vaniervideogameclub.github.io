@@ -15,6 +15,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const eventsHtml = events.map(event => {
                 const eventDate = new Date(`${event.date}T${event.time}`);
+                
+                // Countdown Calculation
+                const updateCountdown = () => {
+                    const now = new Date();
+                    const timeDifference = eventDate - now;
+                    if (timeDifference > 0) {
+                        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                        return `${days}d ${hours}h ${minutes}m`;
+                    } else {
+                        return "Event has started!";
+                    }
+                };
+
+                // Countdown Timer
+                const countdownHtml = `<p class="countdown"><strong>Countdown:</strong> <span id="countdown-${event.date.replace(/-/g, '')}"></span></p>`;
 
                 const details = {
                     title: event.title ? `<h3>${event.title}</h3>` : '',
@@ -31,12 +48,36 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${details.dateTime}
                         ${details.location}
                         ${details.description}
+                        ${countdownHtml}
                     </div>`;
             }).join('');
 
             eventsContainer.innerHTML = `
                 <h2 id="events">Upcoming Events</h2>
                 ${eventsHtml}`;
+
+            // Update countdown timers every minute
+            events.forEach(event => {
+                const countdownElement = document.getElementById(`countdown-${event.date.replace(/-/g, '')}`);
+                if (countdownElement) {
+                    const eventDate = new Date(`${event.date}T${event.time}:00`);
+                    const updateCountdown = () => {
+                        const now = new Date();
+                        const timeDifference = eventDate - now;
+                        if (timeDifference > 0) {
+                            const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                            countdownElement.innerText = `${days}d ${hours}h ${minutes}m`;
+                        } else {
+                            countdownElement.innerText = "Event has not yet started.";
+                        }
+                    };
+
+                    updateCountdown();
+                    setInterval(updateCountdown, 60000); // Update every minute
+                }
+            });
         })
         .catch(error => {
             console.error('Error loading events:', error);

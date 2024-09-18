@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Game Club</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
     <script defer src="js/events.js"></script>
+    <script src="js/loadParticles.js"></script>
 </head>
 <body>
     <header>
         <img id="coinIcon" src="icon.png" alt="Coin" class="coin-icon">
         <audio id="coinSound" src="coin.mp3"></audio>
-        <h1>🎮Video Game Club</h1>
+        <h1><a id="con" href="tools.html">🎮</a>Video Game Club<button id="loadParticlesButton">🕹️</button></h1>
         <h3>Our club room at D-112 check out our opening schedule</h3>
-        <p>Join the Club!</p>
+        <h2>Join the Club!</h2>
 
         <div class="header-buttons">
             <a href="https://www.instagram.com/vanier_videogame_club" target="_blank" class="button">Instagram</a>
@@ -23,9 +25,11 @@
             <a href="ZakSchenck-pokemon-game/pokemon.html" class="button">cool game</a>
             <a href="#events" class="button">Events</a>
             <a href="roadmap.html" class="button">Roadmap</a>
-            <link rel="icon" href="icon.ico" type="image/x-icon">
             <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
         </div>
+                <!-- Particle.js background -->
+                <div id="particles-js"></div>
+
     </header>
 
     <div class="container">
@@ -38,6 +42,7 @@
             <thead>
                 <tr>
                     <th>#</th>
+                    <th>name</th>
                     <th>Discord</th>
                     <th>Points</th>
                 </tr>
@@ -54,6 +59,8 @@
         </div>
 
     </div>
+
+
 
     <footer>
         <div class="footer-content">
