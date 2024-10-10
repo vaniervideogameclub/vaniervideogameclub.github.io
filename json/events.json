@@ -1,18 +1,18 @@
 [
     {
         "title": "MARIO PARTY",
-        "status": "not confirmed yet",
+        "status": "Ended!",
         "date": "2024-09-27",
         "time": "16:00",
         "location": "ON FRIDAY",
         "description": "SEPTEMBER 27TH AT 4PM"
     }
-    ,{
-        "title": "",
-        "status": "",
-        "date": "",
-        "time": "",
-        "location": "",
-        "description": ""
+    , {
+        "title": "MARIO PARTY",
+        "status": "Coming soon!",
+        "date": "2024-10-11",
+        "time": "16:00",
+        "location": "ON FRIDAY",
+        "description": "Sign this Google Form if you're Interested!!! https://forms.gle/nW9JHY1mZb56zBYF6"
     }
 ]

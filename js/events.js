@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
                             countdownElement.innerText = `${days}d ${hours}h ${minutes}m`;
                         } else {
-                            countdownElement.innerText = "Event has not yet started.";
+                            countdownElement.innerText = "Event has Ended!";
                         }
                     };
 
