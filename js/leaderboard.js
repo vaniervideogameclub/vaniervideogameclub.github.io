@@ -49,6 +49,9 @@ function populateLeaderboard(players) {
     const tbody = document.getElementById('leaderboard-body');
     tbody.innerHTML = ''; // Clear existing rows
 
+    // Sort players by points in descending order
+    players.sort((a, b) => b.points - a.points);
+
     //removed <td>${player.name}</td>
     players.forEach((player, index) => {
         const row = document.createElement('tr');

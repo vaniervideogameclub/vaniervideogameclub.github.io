@@ -3,37 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Video Game Club" />
+    <meta property="og:description" content="Check out our website and view our upcoming events!" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/vaniervideogameclub/vaniervideogameclub.github.io/refs/heads/main/icon.png" />
+    <meta property="og:url" content="https://vaniervideogameclub.github.io/" />
     <title>Video Game Club</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/roadmap.css">
     <link rel="icon" href="icon.ico" type="image/x-icon">
     <script defer src="js/events.js"></script>
     <script src="js/loadParticles.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 </head>
 <body>
     <header>
         <img id="coinIcon" src="icon.png" alt="Coin" class="coin-icon">
         <audio id="coinSound" src="coin.mp3"></audio>
-        <h1><a id="con" href="tools.html">🎮</a> Video Game Club <button id="loadParticlesButton">🕹️</button></h1>
+        <h1><a id="con" href="tools.html">🎮</a>Video Game Club<button id="loadParticlesButton">🕹️</button></h1>
         <h3>Our club room at D-112 check out our opening schedule</h3>
-        <p>Join the Club!</p>
+        <h2>Join the Club!</h2>
+
         <div class="header-buttons">
             <a href="index.html" class="button">Main page</a>
             <a href="https://www.instagram.com/vanier_videogame_club" target="_blank" class="button">Instagram</a>
             <a href="https://discord.gg/cJCDE8Xkyw" target="_blank" class="button">Discord</a>
-            <a href="game.html" target="_blank" class="button">dumb game 1</a>
+            <a href="game.html" class="button">dumb game 1</a>
             <a href="pokeball.html" class="button">dumb game 2</a>
             <a href="ZakSchenck-pokemon-game/pokemon.html" class="button">cool game</a>
-            <a href="index.html" class="button">Events</a>
-            <a href="room.html" class="button">ROOM!</a>
-            <a href="#" class="button">Roadmap</a>
+            <a href="#events" class="button">Events</a>
+            <a href="roadmap.html" class="button">Roadmap</a>
+            <a href="" class="button">ROOM!</a>
+
+            <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
         </div>
-        <div id="particles-js"></div>
+                <!-- Particle.js background -->
+                <div id="particles-js"></div>
 
     </header>
 
-    <div class="timeline"></div>
-    <script src="js/roadmap.js"></script>
+    <div class="container3d">
+        <h2>Old Room</h2>
+        <model-viewer 
+        src="oldRoom.glb" 
+        alt="3D Model" 
+        ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        auto-rotate 
+        camera-controls>
+    </model-viewer>
+    </div>
 
     <footer>
         <div class="footer-content">
