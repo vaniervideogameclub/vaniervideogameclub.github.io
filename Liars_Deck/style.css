@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+    background-color: #000;
+}
+
+.page-wrapper {
+    padding: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 640px) {
+    .content-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.info-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-title {
+    color: #f00;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-display {
+    background-color: #fff;
+    color: #000;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn-draw-card {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.count-card {
+    background-color: #1a1a1a;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.count-title {
+    color: #f00;
+}
+
+.counter-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.btn-counter {
+    color: #ffcc00;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.btn-reset {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.revolvers-section {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.revolvers-title {
+    color: #f00;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.revolver-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.revolver-card {
+    width: 180px;
+    height: 350px;
+    border: 2px solid #00ff00;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.revolver-header {
+    color: #f00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cylinder-container {
+    transition: transform 3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+}
+
+
+.cylinder-svg {
+    width: 100%;
+    height: auto;
+}
+
+.chamber {
+    cursor: pointer;
+}
+
+.revolver-info {
+    margin-top: 15px;
+}
+
+.btn-trigger {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-trigger:hover {
+    background-color: #00cc00;
+}
+
+.revolvers-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.counter-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
