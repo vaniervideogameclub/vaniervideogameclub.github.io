@@ -1,38 +1,50 @@
 [
     {
+        "date": "September 26",
+        "title": "Mario Party Superstars",
+        "instagram link": "https://www.instagram.com/p/DAZk904OrAa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1289011685360930930/New_Project_10.jpg?ex=673298ae&is=6731472e&hm=e224189a292c40bf8897c1837437383876498a245ed1e93982022f5fddb02a98&=&format=webp&width=537&height=671",
+        "description": "casual Mario Party",
+        "winners": ["test", "bob", "mario"]
+    },
+    {
+        "date": "October 11th",
+        "title": "Mario Party Superstars",
+        "instagram link": "https://www.instagram.com/p/DApJ1wNOllJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1291203760382808166/New_Project_11.jpg?ex=6732a935&is=673157b5&hm=3e6a7172254170dea80b5f18e7b9fdc3626b9cadffe8a52c542d607eb9273e10&=&format=webp&width=537&height=671",
+        "description": "casual Mario Party",
+        "winners": ["", "", ""]
+    },
+    {
+        "date": "October 18th",
+        "title": "online Guilty Gear Strive tournament",
+        "instagram link": "https://www.instagram.com/p/DBOyG1guOPM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1296500373783183471/New_Project_12.jpg?ex=6732d050&is=67317ed0&hm=0a536bfe9ceb34920d35ffe286ae270eb25e3e86b2f5e14aaf1a433b19013537&=&format=webp&width=537&height=671",
+        "description": "Guilty Gear Strive tournament",
+        "winners": ["", "", ""]
+    },
+    {
+        "date": "October 26th",
+        "title": "Splatoon 3",
+        "instagram link": "https://www.instagram.com/p/DBgtAl8uhlB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1299022617373573171/New_Project_14.jpg?ex=6732c2d6&is=67317156&hm=5e14a86af1fec75bea00c9678dcd3f644a4a1168a0c386c80a104ede6d92a4a2&=&format=webp&width=537&height=671",
+        "description": " Splatoon 3 online with us on the 26th and 27th",
+        "winners": ["", "", ""]
+    },
+    {
+        "date": "October 30th",
+        "title": " COSPLAY/COSTUME FASHION SHOW!!!!!!! ",
+        "instagram link": "https://www.instagram.com/p/DBuyKIeO4Kt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1297540812367724635/Your_paragraph_text_2.jpg?ex=6732a4cc&is=6731534c&hm=d3719298114369c175d479046768f751d88c88e13c78fb89b4b5fa8d65b0855f&=&format=webp&width=270&height=350",
+        "description": "VVGC, OTAKU CLUB, TABLETOP CLUB, VANIER STUDENT LIFE, AND VANIER DJ CLUB PRESENT A COSPLAY AND COSTUME CONTEST!",
+        "winners": ["", "", ""]
+    },
+    {
         "date": "November 6th",
-        "title": "Dragon Ball Fighter Z Casual Gaming"
-    },
-    {
-        "date": "November 8th",
-        "title": "Online Game Night - Gartic Phone"
-    },
-    {
-        "date": "November 13th",
-        "title": "Try Resident Evil 8"
-    },
-    {
-        "date": "November 15th",
-        "title": "Gaming Night at Club Room - Mario Party Jamboree"
-    },
-    {
-        "date": "November 18th",
-        "title": "Fight Sans from Undertale"
-    },
-    {
-        "date": "November 20th",
-        "title": "Drunk Driving - Mario Kart"
-    },
-    {
-        "date": "November 21st",
-        "title": "Casual Mario Kart"
-    },
-    {
-        "date": "November 22nd",
-        "title": "Smash Bros"
-    },
-    {
-        "date": "November 27th",
-        "title": "NBA Thing"
+        "title": "Dragon Ball Fighter Z",
+        "instagram link": "https://www.instagram.com/p/DB6umQmuQKr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "image": "https://media.discordapp.net/attachments/1068262520529362974/1302686507479335015/New_Project_15.jpg?ex=67323f5a&is=6730edda&hm=0ab70e705fdd65d189039c4cafc21a33a3f1166993ca67c536d993e28e22f8fd&=&format=webp&width=537&height=671",
+        "description": "Dragon Ball Fighter Z at UB!",
+        "winners": ["", "", ""]
     }
 ]
