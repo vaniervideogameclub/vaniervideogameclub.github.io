@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/tools.css">
     <link rel="icon" href="icon.ico" type="image/x-icon">
-    <script defer src="js/timer.js"></script>
     <script src="js/loadParticles.js"></script>
+    <script src="js/csv2json.js"></script>
+    <script src="js/csv2checklist.js"></script>
 </head>
 <body>
     <header>
         <img id="coinIcon" src="icon.png" alt="Coin" class="coin-icon">
         <audio id="coinSound" src="coin.mp3"></audio>
         <h1><a id="con" href="tools.html">🎮</a> <a href="index.html">Video Game Club</a> <button id="loadParticlesButton">🕹️</button></h1>
-        <h3>Our club room at D-112 check out our opening schedule</h3>
+        <h3>Our club room at D-112 check opening schedule</h3>
         <p>Join the Club!</p>
 
         <div class="header-buttons">
@@ -30,47 +31,31 @@
             <a href="room.html" class="button">ROOM!</a>
         </div>
 
-                        <!-- Particle.js background -->
-                        <div id="particles-js"></div>
+        <!-- Particle.js background -->
+        <div id="particles-js"></div>
     </header>
 
-    <!-- CSV to JSON Conversion -->
+    <section id="csv-to-json">
+        <h2>CSV to Check List Conversion</h2>
+        <input type="file" id="fileInput" accept=".csv">
+        <button onclick="convertCSVToChecklist()">Convert CSV to Check List</button>
+        <pre id="output"></pre>
+    </section>
+    
     <section id="csv-to-json">
         <h2>CSV to JSON Conversion</h2>
         <input type="file" id="fileInput" accept=".csv">
-        <button onclick="convertCSVtoJSON()">Convert CSV to JSON</button>
-        <pre id="output"></pre>
+        <button id="convertButton">Convert CSV to JSON</button>
+        <pre id="output2"></pre>
     </section>
-
-    <!-- Table displaying event data -->
-    <section>
-        <h2>Upcoming Events</h2>
-        <table class="event-table">
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Status</th>
-                    <th>Date</th>
-                    <th>Time</th>
-                    <th>Location</th>
-                    <th>Description</th>
-                    <th>Countdown</th>
-                </tr>
-            </thead>
-            <tbody id="eventTableBody">
-                <!-- JS will dynamically fill this table -->
-            </tbody>
-        </table>
-    </section>
+    
+    
 
     <!-- Spotify Player -->
     <section>
         <h2>Listen to Game Tunes 🎧</h2>
         <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdfOcg1fm0VG" width="300" height="380"></iframe>
     </section>
-
-    <!-- Particle.js background -->
-    <div id="particles-js"></div>
 
     <footer>
         <div class="footer-content">
