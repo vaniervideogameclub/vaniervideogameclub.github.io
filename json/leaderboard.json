@@ -1,132 +1,177 @@
 [
-    {
-      "name": "Lucas Coveyduck",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Marlon Larente",
-      "discord": "null",
-      "points": 35
-    },
-    {
-      "name": "Joshua George Pangilinan",
-      "discord": "null",
-      "points": 35
-    },
-    {
-      "name": "marcus ",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Olivia",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "angelo apas",
-      "discord": "kireme",
-      "points": 20
-    },
-    {
-      "name": "Kenneth Chu",
-      "discord": "null",
-      "points": 20
-    },
-    {
-      "name": "Masha",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Fabian Ruiz",
-      "discord": "null",
-      "points": 20
-    },
-    {
-      "name": "Sarah Radi",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Percy!",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Karis",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Delcia Badinga",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Gabrielle Dédé 24824105",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "ishmita hossain ",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Nickan Mokhtari",
-      "discord": "null",
-      "points": 20
-    },
-    {
-      "name": "Tuba",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Jodel",
-      "discord": "null",
-      "points": 25
-    },
-    {
-      "name": "Christian Cid",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Sebastian Helmer",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Johanna Mae Tolentino",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Tony",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Wafa Ghamaroui",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Joanna Mae",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Irine",
-      "discord": "null",
-      "points": 10
-    },
-    {
-      "name": "Sachi",
-      "discord": "null",
-      "points": 10
-    }
-  ]
+  {
+    "name": "Lucas Coveyduck",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Marlon Larente",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Joshua George Pangilinan",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "marcus ",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Olivia",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "angelo apas",
+    "discord": "kireme",
+    "points": 15
+  },
+  {
+    "name": "Kenneth Chu",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Masha",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Fabian Ruiz",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Sarah Radi",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Percy!",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Karis",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Delcia Badinga",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Gabrielle Dédé 24824105",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "ishmita hossain ",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Nickan Mokhtari",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Tuba",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Jodel",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Christian Cid",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Sebastian Helmer",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Johanna Mae Tolentino",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Tony",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Wafa Ghamaroui",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Joanna Mae",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Irine",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Sachi",
+    "discord": "null",
+    "points": 15
+  },
+  {
+    "name": "Jordan",
+    "discord": "null",
+    "points": 18
+  },
+  {
+    "name": "Alessandro",
+    "discord": "null",
+    "points": 20
+  },
+  {
+    "name": "Rami",
+    "discord": "null",
+    "points": 25
+  },
+  {
+    "name": "Olivia",
+    "discord": "null",
+    "points": 10
+  },
+  {
+    "name": "Clark",
+    "discord": "null",
+    "points": 10
+  },
+  {
+    "name": "Tommy",
+    "discord": "null",
+    "points": 10
+  },
+  {
+    "name": "Lukus",
+    "discord": "null",
+    "points": 10
+  },
+  {
+    "name": "Joshua Fischer",
+    "discord": "null",
+    "points": 10
+  },
+  {
+    "name": "Alek Serapins",
+    "discord": "null",
+    "points": 10
+  }
+]
