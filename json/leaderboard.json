@@ -7,12 +7,12 @@
     {
       "name": "Marlon Larente",
       "discord": "null",
-      "points": 35
+      "points": 15
     },
     {
       "name": "Joshua George Pangilinan",
       "discord": "null",
-      "points": 35
+      "points": 15
     },
     {
       "name": "marcus ",
@@ -32,7 +32,7 @@
     {
       "name": "Kenneth Chu",
       "discord": "null",
-      "points": 20
+      "points": 15
     },
     {
       "name": "Masha",
@@ -42,7 +42,7 @@
     {
       "name": "Fabian Ruiz",
       "discord": "null",
-      "points": 20
+      "points": 15
     },
     {
       "name": "Sarah Radi",
@@ -230,4 +230,4 @@
       "discord": "null",
       "points": 10
     }
-  ]
+]
