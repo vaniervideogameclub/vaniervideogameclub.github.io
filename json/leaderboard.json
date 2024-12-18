@@ -1,206 +1,53 @@
 [
-  {
-    "name": "Rami",
-    "points": 30
-  },
-  {
-    "name": "Marlon Larente",
-    "points": 55
-  },
-  {
-    "name": "Kenneth Chu",
-    "points": 45
-  },
-  {
-    "name": "Fabian Ruiz",
-    "points": 45
-  },
-  {
-    "name": "Alessandro",
-    "points": 25
-  },
-  {
-    "name": "Jordan",
-    "points": 50
-  },
-  {
-    "name": "Joshua George Pangilinan",
-    "points": 65
-  },
-  {
-    "name": "Jodel",
-    "points": 25
-  },
-  {
-    "name": "Henrik Hughes",
-    "points": 25
-  },
-  {
-    "name": "Malik",
-    "points": 25
-  },
-  {
-    "name": "Matthew",
-    "points": 25
-  },
-  {
-    "name": "Gib Macarine",
-    "points": 25
-  },
-  {
-    "name": "Takumi Nagai",
-    "points": 25
-  },
-  {
-    "name": "Mauricio",
-    "points": 25
-  },
-  {
-    "name": "Olivia",
-    "points": 25
-  },
-  {
-    "name": "Angelo apas",
-    "points": 25
-  },
-  {
-    "name": "Nickan Mokhtari",
-    "points": 20
-  },
-  {
-    "name": "Vishalan Krishnar",
-    "points": 15
-  },
-  {
-    "name": "Lucas Coveyduck",
-    "points": 10
-  },
-  {
-    "name": "marcus",
-    "points": 10
-  },
-  {
-    "name": "Masha",
-    "points": 10
-  },
-  {
-    "name": "Sarah Radi",
-    "points": 10
-  },
-  {
-    "name": "Percy!",
-    "points": 10
-  },
-  {
-    "name": "Karis",
-    "points": 10
-  },
-  {
-    "name": "Delcia Badinga",
-    "points": 10
-  },
-  {
-    "name": "Gabrielle Dédé 24824105",
-    "points": 10
-  },
-  {
-    "name": "ishmita hossain",
-    "points": 10
-  },
-  {
-    "name": "Tuba",
-    "points": 10
-  },
-  {
-    "name": "Christian Cid",
-    "points": 10
-  },
-  {
-    "name": "Sebastian Helmer",
-    "points": 10
-  },
-  {
-    "name": "Johanna Mae Tolentino",
-    "points": 10
-  },
-  {
-    "name": "Tony",
-    "points": 10
-  },
-  {
-    "name": "Wafa Ghamaroui",
-    "points": 10
-  },
-  {
-    "name": "Joanna Mae",
-    "points": 10
-  },
-  {
-    "name": "Irine",
-    "points": 30
-  },
-  {
-    "name": "Sachi",
-    "points": 10
-  },
-  {
-    "name": "Marion Larente",
-    "points": 10
-  },
-  {
-    "name": "Vishaian Krishnar",
-    "points": 10
-  },
-  {
-    "name": "Clark",
-    "points": 10
-  },
-  {
-    "name": "Tommy",
-    "points": 10
-  },
-  {
-    "name": "Lukus",
-    "points": 40
-  },
-  {
-    "name": "Joshua Fischer",
-    "points": 10
-  },
-  {
-    "name": "Alek Serapins",
-    "points": 10
-  },
-  {
-    "name": "Tommy Vu",
-    "points": 25
-  },
-  {
-    "name": "Noah Walsh",
-    "points": 45
-  },
-  {
-    "name": "Kayla",
-    "points": 10
-  },
-  {
-    "name": "Michaella",
-    "points": 20
-  },
-  {
-    "name": "Adam Coleman",
-    "points": 20
-  },
-  {
-    "name": "Kevin Wade",
-    "points": 10
-  },
-  {
-    "name": "Abdullah Al Mursalim",
-    "points": 10
-  },
-  {
-    "name": "Nicolas Jones",
-    "points": 20
-  }
+  { "name": "Rami", "points": 30 },
+  { "name": "Marlon Larente", "points": 55 },
+  { "name": "Kenneth Chu", "points": 45 },
+  { "name": "Fabian Ruiz", "points": 45 },
+  { "name": "Alessandro", "points": 25 },
+  { "name": "Jordan", "points": 50 },
+  { "name": "Joshua George Pangilinan", "points": 65 },
+  { "name": "Jodel", "points": 25 },
+  { "name": "Henrik Hughes", "points": 25 },
+  { "name": "Malik", "points": 25 },
+  { "name": "Matthew", "points": 25 },
+  { "name": "Gib Macarine", "points": 25 },
+  { "name": "Takumi Nagai", "points": 25 },
+  { "name": "Mauricio", "points": 25 },
+  { "name": "Olivia", "points": 25 },
+  { "name": "Angelo apas", "points": 25 },
+  { "name": "Nickan Mokhtari", "points": 20 },
+  { "name": "Vishalan Krishnar", "points": 15 },
+  { "name": "Lucas Coveyduck", "points": 10 },
+  { "name": "marcus", "points": 10 },
+  { "name": "Masha", "points": 10 },
+  { "name": "Sarah Radi", "points": 10 },
+  { "name": "Percy!", "points": 10 },
+  { "name": "Karis", "points": 10 },
+  { "name": "Delcia Badinga", "points": 10 },
+  { "name": "Gabrielle Dédé 24824105", "points": 10 },
+  { "name": "ishmita hossain", "points": 10 },
+  { "name": "Tuba", "points": 10 },
+  { "name": "Christian Cid", "points": 10 },
+  { "name": "Sebastian Helmer", "points": 10 },
+  { "name": "Johanna Mae Tolentino", "points": 10 },
+  { "name": "Tony", "points": 10 },
+  { "name": "Wafa Ghamaroui", "points": 10 },
+  { "name": "Joanna Mae", "points": 10 },
+  { "name": "Irine", "points": 30 },
+  { "name": "Sachi", "points": 10 },
+  { "name": "Marion Larente", "points": 10 },
+  { "name": "Vishaian Krishnar", "points": 10 },
+  { "name": "Clark", "points": 10 },
+  { "name": "Tommy", "points": 10 },
+  { "name": "Lukus", "points": 40 },
+  { "name": "Joshua Fischer", "points": 10 },
+  { "name": "Alek Serapins", "points": 10 },
+  { "name": "Tommy Vu", "points": 25 },
+  { "name": "Noah Walsh", "points": 45 },
+  { "name": "Kayla", "points": 10 },
+  { "name": "Michaella", "points": 20 },
+  { "name": "Adam Coleman", "points": 20 },
+  { "name": "Kevin Wade", "points": 10 },
+  { "name": "Abdullah Al Mursalim", "points": 10 },
+  { "name": "Nicolas Jones", "points": 20 }
 ]
