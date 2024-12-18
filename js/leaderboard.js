@@ -1,6 +1,7 @@
 // List of local JSON file paths
 const jsonFiles = [
-    'json/leaderboard.json'];
+    'json/leaderboard.json'
+];
 
 // Function to load JSON data from a local file
 async function loadJSON(file) {
@@ -16,33 +17,30 @@ async function loadJSON(file) {
 
 // Function to fetch and merge data from all JSON files
 async function fetchAndMergeData() {
-    const allPlayers = [];
+    const allPlayers = {};
 
     for (const file of jsonFiles) {
         const players = await loadJSON(file);
+
         players.forEach(player => {
-            // Check if player.discord is "null"
-            const isNullDiscord = player.discord === "null";
-            
-            if (isNullDiscord) {
-                // Push player with "null" discord directly to allPlayers
-                allPlayers.push({ ...player });
+            const normalizedName = player.name.trim().toLowerCase(); // Normalize names for comparison
+            if (allPlayers[normalizedName]) {
+                // Add points to an existing player with the same name
+                allPlayers[normalizedName].points += player.points;
             } else {
-                // Handle non-null discord players
-                const existingPlayer = allPlayers.find(p => p.discord === player.discord);
-                if (existingPlayer) {
-                    existingPlayer.points += player.points;
-                } else {
-                    allPlayers.push({ ...player });
-                }
+                // Add new player to the list
+                allPlayers[normalizedName] = { 
+                    name: player.name.trim(), // Keep original formatting for display
+                    points: player.points
+                };
             }
         });
     }
 
-    populateLeaderboard(allPlayers);
+    // Convert the object back to an array
+    const mergedPlayers = Object.values(allPlayers);
+    populateLeaderboard(mergedPlayers);
 }
-
-
 
 // Function to fill or update the leaderboard
 function populateLeaderboard(players) {
@@ -52,13 +50,11 @@ function populateLeaderboard(players) {
     // Sort players by points in descending order
     players.sort((a, b) => b.points - a.points);
 
-    //removed <td>${player.name}</td>
     players.forEach((player, index) => {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>${index + 1}</td>
             <td>${player.name}</td>
-            <td>${player.discord}</td>
             <td>${player.points}</td>
         `;
         tbody.appendChild(row);

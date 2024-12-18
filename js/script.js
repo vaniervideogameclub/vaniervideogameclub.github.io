@@ -3,9 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const coinSound = document.getElementById('coinSound');
     const leaderboardRow = document.querySelector('.leaderboard tbody tr');
 
-    setTimeout(() => {
-        leaderboardRow.style.transform = 'translateX(0)';
-    }, 500);
+    if (leaderboardRow) {
+        setTimeout(() => {
+            leaderboardRow.style.transform = 'translateX(0)';
+        }, 500);
+    }
 
     const rows = document.querySelectorAll('.leaderboard tbody tr');
     rows.forEach(row => {
